@@ -11,7 +11,7 @@
 *   Copyright (c) 2021 Ramon Santamaria (@raysan5)
 *
 ********************************************************************************************/
-
+#ifdef __ULT
 #include "raylib.h"
 #include "screens.h"    // NOTE: Declares global (extern) variables and screens functions
 
@@ -295,3 +295,4 @@ static void UpdateDrawFrame(void)
     EndDrawing();
     //----------------------------------------------------------------------------------
 }
+#endif
